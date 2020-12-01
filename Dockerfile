@@ -12,6 +12,6 @@ RUN apk --update-cache \
     python3 \
     py3-pip
 
-RUN pip3 install flask
+RUN pip3 install flask flask-cors
 
 ENV FLASK_ENV development
