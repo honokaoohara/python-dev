@@ -1,4 +1,3 @@
--- mysql -uroot < init.sql
 CREATE DATABASE IF NOT EXISTS app;
 use app;
 CREATE TABLE tweets (id INT AUTO_INCREMENT, tweet VARCHAR(100), user VARCHAR(10), PRIMARY KEY (id));
