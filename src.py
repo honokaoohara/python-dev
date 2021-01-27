@@ -3,4 +3,4 @@ b = 3
 
 answer = a - b
 
-print("a + b = " + str(answer))
+print("a - b = " + str(answer))
